@@ -1,0 +1,306 @@
+% LaTeX Curriculum Vitae Template
+%
+% Copyright (C) 2004-2009 Jason Blevins <jrblevin@sdf.lonestar.org>
+% http://jblevins.org/projects/cv-template/
+%
+% You may use use this document as a template to create your own CV
+% and you may redistribute the source code freely. No attribution is
+% required in any resulting documents. I do ask that you please leave
+% this notice and the above URL in the source code if you choose to
+% redistribute this file.
+
+\documentclass[letterpaper]{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{John R. Leeman}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+% The following metadata will show up in the PDF properties
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeywords = {geophysics, meteorology, statistics, mathematics},
+  pdftitle = {\name: Curriculum Vitae},
+  pdfsubject = {Curriculum Vitae},
+  pdfpagemode = UseNone
+}
+
+\geometry{
+  body={6.5in, 8.5in},
+  left=1.0in,
+  top=1.25in
+}
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+\begin{document}
+
+% Place name at left
+{\huge \name}
+
+% Alternatively, print name centered and bold:
+%\centerline{\huge \bf \name}
+
+\vspace{0.25in}
+
+\begin{minipage}{0.45\linewidth}
+  \href{http://www.geosc.psu.edu/}{Penn State } \\
+  Department of Geosciences \\
+  522 Deike Building \\
+   University Park, PA  16802
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+  \begin{tabular}{ll}
+    Phone: & (479) 427-0299 \\
+    Fax: &  (814) 863-7823 \\
+    Email: & \href{mailto:kd5wxb@gmail.com}{\tt kd5wxb@gmail.com} \\
+    Homepage: & \href{http://www.johnrleeman.com}{\tt http://www.johnrleeman.com} \\
+  \end{tabular}
+\end{minipage}
+
+
+\section*{Personal}
+
+\begin{itemize}
+\item Born on October 05, 1988.
+\item United States Citizen.
+\end{itemize}
+
+
+\section*{Education}
+
+\begin{itemize}
+ \item PhD Geophysics, Penn State, In Progress
+
+ \item B.S. Geophysics, University of Oklahoma, 2012.
+
+  \item B.S. Meteorology, University of Oklahoma, 2012.
+
+ \item Minor Mathematics, University of Oklahoma, 2012.
+\end{itemize}
+
+
+\section*{Experience}
+
+\begin{itemize}
+\item Research Assistant, Chris Marone, Penn State Rock and Sediment Mechanics Laboratory, July 2012 - Present.
+\item Teaching Assistant for Geophysics Field Camp and Geophysics for Geologists, Summer 2012
+\item University of Oklahoma Undergraduate Research Assistant, Gas Hydrates Laboratory with Dr. Megan Elwood Madden. 2008--2012
+\item Teaching Assistant for `Global Geophysics' Laboratory and developed associated assignments, Fall 2011
+\item National Aeronautics and Space Administration (NASA) Summer Intern in Aerospace and Flight Mechanics Division, Summer 2011
+\item Assistant, Managed and maintained geophysics instrumentation and equipment (valued at $\sim$ \$500K) and set-up/administered a Linux-based computer network for field camp, Summer 2011
+\item Teaching Assistant for `Introduction to Meteorology' Laboratory, Spring 2011
+\item Oak Ridge National Laboratory (ORNL) Summer Intern in Gas Hydrates, Summers 2009- 2010
+\item National Oceanic and Atmospheric Administration (NOAA) Fisheries Volunteer, Summer 2008
+\end{itemize}
+
+\section*{Professional Qualifications}
+
+\subsection*{Professional Memberships}
+\begin{itemize}
+\item American Geophysical Union (2009-Present)
+\item American Physical Society      (2009-Present)
+\item Geological Society of America (2012-Present)
+\item American Chemical Society    (2009-2011)
+\end{itemize}
+
+\subsection*{Computer Skills}
+
+\begin{itemize}
+\item Python programming including matplotlib, numpy, and other modules 
+\item Basic MATLAB, LabView, and C programming
+\item LabView Programming - Certified LabView Associate Developer
+\item Linux use, setup, and administration
+\item Webpage setup, hosting
+\item Instrument monitoring and control
+\item Numerical Methods for evaluating and visualizing data
+\item \LaTeX{} Typesetting and Document Preparation
+\item Adobe Creative Suite (Illustrator, Photoshop)
+\item Microsoft Suite and Apple Presentation Software (Keynote)
+\end{itemize}
+
+
+
+\section*{Publications}
+
+\subsection*{Journal Articles}
+
+\begin{itemize}
+
+\item Bonin, T., Chilson, P., Zielke, B., Klein, P., Leeman, J.R., Development and Comparisons of Wind Retrieval Algorithms for Small Unmanned Aerial Systems. Geosci. Instrum. Method. Data Syst. 2 pp.177-187
+
+\item Leeman, J.R., Rawn, C.J., Ulrich, S., Elwood Madden, M.E., Phelps, T.J., 2012.  Interpreting Temperature Strain Data from Meso-Scale Clathrate Experiments. Computers and Geosciences 38 pp.62-67
+
+\item Rawn, C.J., Leeman, J.R., Ulrich, S.M., Alford, J.E., Phelps, T.J., Elwood Madden, M.E., 2011. Fiber Optic Sensing Technology for Detecting Gas Hydrate Formation and Decomposition. Review of scientific instruments 82.
+
+\item Elwood Madden, M.E., Leeman, J.R., Root, M.J., Gainey, S., 2011. Reduced sulfur-carbon-water systems on Mars may yield shallow methane hydrate reservoirs. Planet. Space Sci. 59 pp.203-206
+
+\item Leeman, J.R., Schmitter, E.D., 2009. Electric Signals generated by tornados. Atmospheric Research 92 pp.277-279
+
+\end{itemize}
+
+\subsection*{Conference Presentations/Posters}
+
+\begin{itemize}
+
+\item Leeman, J.R., Scuderi, M.M., Marone, C., Saffer, D.M., Electrical Anomalies Observed During Frictional Stick-Slip in Granular Materials.  40th Workshop of the International School of Geophysics: Properties and Processes of Crustal Fault Zones 2013.
+
+\item Leeman, J.R., Electrical Potentials During Ice Deformation: Theory and Laboratory Results.  Midwest Glaciology Meeting 2013.  
+
+\item Elwood Madden, M.E., Root, M., Gainey, S., and Leeman, J.R., Gas clathrate hydrate thermodynamics and kinetics: limits on near-surface volatile fluxes for cold terrestrial planet systems through deep time.  Goldschmidt 2012.
+
+\item Leeman, J.R., Elwood Madden, M.E., Phelps, T.J., Rawn, C.J.,  Experimental Results of Hydrate Reservoir Destabilization Through Heating. American Geophysical Union, 2011.  *Presented Poster
+
+\item Umphlett, B.W., Leeman, J.R., Morrissey, M.,  Detection of Wildfires with Artificial Neural Networks. American Geophysical Union, 2011.  *Presented Poster
+
+\item Leeman, J.R., Elwood Madden, M.E., Rapid Heat Induced Clathrate Dissociation Events - A Planetary Context. LPSC 2011 * Presented Poster
+
+\item  Gainey, S.R., Elwood Madden, M.E., Leeman, J.R., Guttery, B.M., Kinetics of Methane Hydrate Formation \& Dissociation Under Mars Relevant Conditions. LPSC 2011 
+
+\item Leeman, J.R., Elwood Madden, M.E., Alford, J.E., Phelps, T.J., Rawn, C.J, Evaluation of Heat Induced Methane Release from Methane Hydrates. American Geophysical Union, 2010 abstract OS53A-1376 *Presented Poster
+
+\item Leeman, J.R., Elwood Madden, M.E., CO2 clathrate formation and dissociation rates below 273K. Goldschmidt 2010 *Presented Poster
+
+\item Rawn, C.J., Leeman, J.R., Ulrich, S.M., Alford, J.E., Madden, M.E., Phelps, T.J., Homogeneous and heterogeneous sediment experiments using fiber optic sensing technology for detecting gas hydrate formation. Goldschmidt 2010
+
+\item Leeman, J.R., Blackburn, D.G., Elwood Madden, M.E., Ulrich, R., Chevrier, V., Clathrate dissociation rates below the freezing point of water. LPSC 2010 * Presented Poster
+
+\item Leeman, J.R., Elwood Madden, M.E., Alford, J.E., Phelps, T.J., Rawn, C.J., Meso-Scale Clathrate Experiments: Effect of Grain Size on Formation Pathways. American Geophysical Union, 2009 abstract 1050h *Gave Oral Presentation
+
+\item Rawn, C.J., Chakoumakos, B.C., Garlea, O., Leeman, J.R., Alford, J.E., Elwood Madden, M.E., Phelps, T.J., Neutron Powder Diffraction Study of CO2 Hydrate as a Function of Pressure. American Geophysical Union, 2009 abstract 1150h
+
+\item Blackburn, D.G., Ulrich, R., Elwood Madden, M.E., Leeman, J.R., Experimental Study of the Kinetics of CO2 Hydrate Dissociation Under Simulated Martian Conditions. LPSC Abstract 2009
+
+\item Elwood Madden, M.E., Leeman, J.R., Guttery, B., Methane hydrates: A source for slow methane release on Mars? Hydrates Meeting 2009
+
+\end{itemize}
+
+\subsection*{Other Works}
+\begin{itemize}
+
+\item  Leeman, J.R., Morpheus Data Parsing and Plotting: A New Approach to Large Data Set Analysis with Open Source Tools.  NASA Technical Paper 2011.
+
+\item Leeman, J.R., Umphlett, B., Morrissey, M., Detection of Wildfires with Artificial Neural Networks.  School of Meteorology Capstone Papers 2011
+
+\item Leeman, J.R., Elwood Madden, M.E.,  Collaborative Gas Hydrates Research at OU. Earth Scientist 2010
+
+\item Leeman, J.R., Keranen, K., Locating a Historic Norman Gravesite with Geophysical Methods. Earth Scientist 2010
+
+\end{itemize}
+
+\subsection*{Manuscripts In-Preparation}
+\begin{itemize}
+
+\item Leeman, J.R., Scuderi, M.M., Marone, C., Saffer, D.M., Shinbrot,T. , Electrical Potential Signals from Frictional Stick Slip Events: Laboratory Experiments  in Synthetic Granular Fault Gouge. In Prep. (Journal of Geophysical Research)
+
+\item Leeman, J.R., Elwood Madden, M.E., Phelps, T.J., Rawn, C.J., Heat Induced Production from Gas Hydrate Reservoirs: A Meso-Scale Experimental and Modeling Analysis.  In Prep. (Marine and Petroleum Geology)
+
+\item Leeman, J.R., Morrissey, M., Umphlett, B.W., Detection of Wildfires from Advanced Very High Resolution Radiometer (AVHRR) Data with Artificial Neural Networks.  In Prep.
+\end{itemize}
+
+
+\section*{Scientific Software}
+\begin{itemize}
+\item SODAR Comparison --  Compare SODAR data with weather balloon and unmanned aerial vehicle observations.
+\item CSV Tools -- Data reduction and plotting software for the NASA Morpheus Lander.
+\item Magnetic Plot -- Merge GPS and magnetometer data for gridding and plotting.
+\item DSSPlotter -- Plotting and contouring software for LUNA fiber optic distributed sensing systems.
+\item DASNET Framework Implementation in Python -- Rework of ISCO syringe pump drivers with implementation of custom commands for monitoring, controlling, and logging pump output. Associated data display capability.
+\end{itemize}
+
+\section*{Awards/Scholarships}
+\begin{itemize}
+\item Charles E. Knopf Sr. Memorial Scholarship 2013
+\item Krynine Travel Scholarship 2013
+\item GDL Foundation Fellowship 2013 
+\item University Graduate Fellowship Penn State 2012
+\item Thomas Julian Lockhart Scholarship in Meteorological Measurements and Observing Systems - University of Oklahoma School of Meteorology (2012)
+\item Outstanding Student Paper - AGU 2011 Fall Meeting
+\item 3rd Place Outstanding Senior - University of Oklahoma College of Earth and Energy (2011)
+\item Alan Witten Outstanding Senior Award - University of Oklahoma School of Geology and Geophysics (2011)
+\item Alan Witten Scholarship
+\item College of Earth and Energy Arthur J. Myers Scholarship 
+\item Ben Hare Memorial Scholarship Harry H. Diamond Scholarship in Geology and Geophysics
+\item Glenn W. Okerson Endowed Scholarship 
+\item University of Oklahoma Academic Scholarship (out of state students)
+\end{itemize}
+
+%\newpage
+
+%\section*{References}
+%Dr. Megan Elwood Madden\\
+%Assistant Professor\\
+%University of Oklahoma Dept. of Geology and Geophysics\\
+%Phone: 405-325-1563\\
+%Fax: 405-325-3140\\
+%E-mail: melwood@ou.edu\\
+
+%Dr. Claudia Rawn\\
+%Oak Ridge National Laboratory/University of Tennessee \\
+%Phone:  865-974-5340\\
+%E-mail: crawn@utk.edu\\ 
+
+%Dr. Tim Crain\\
+%National Aeronautics and Space Administration\\
+%GN\&C Engineer\\
+%Phone: 832-221-1947\\
+%E-mail: tim.crain-1@nasa.gov\\
+
+%Dr. Phillip Chilson\\
+%University of Oklahoma Dept. of Meteorology\\
+%Associate Professor\\
+%Phone: 405-325-5095\\  
+%Fax: 405-325-7689\\ 
+%E-mail: chilson@ou.edu\\
+
+%\bigskip
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today \\
+    \href{\footerlink}{\texttt{\footerlink}}
+  \end{footnotesize}
+\end{center}
+
+\end{document}
